@@ -29,10 +29,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    val greetingText = stringResource(id = R.string.app_greating)
+    val greeting = stringResource(R.string.greeting)
 
     Text(
-            text = "$greetingText $name!",
+            text = "$greeting $name!",
             modifier = modifier
     )
 }
